@@ -70,7 +70,7 @@
 
     #t1--3 {
         flex-direction: column;
-        gap: 34 %
+        gap: 34%;
     }
 
     #t1--3 .v-card {
