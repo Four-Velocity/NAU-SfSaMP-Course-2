@@ -9,7 +9,7 @@
         <v-tab value="one">Завдання №1</v-tab>
         <v-tab value="two">Завдання №2</v-tab>
         <v-tab value="three">Завдання №3</v-tab>
-        <!-- <v-tab value="three">Завдання №4</v-tab> -->
+        <v-tab value="four">Завдання №4</v-tab>
       </v-tabs>
     </template>
   </v-toolbar>
@@ -26,16 +26,22 @@
     <v-window-item value="three">
       <Task3 />
     </v-window-item>
+
+    <v-window-item value="four" id="calc">
+      <Task4 />
+    </v-window-item>
   </v-window>
 </template>
 
 <style scoped>
-.v-window {
-  height: 100%;
-}
 
 .v-window-item {
-  height: 100%;
+  height: 80vh;
+}
+#calc {
+  display: flex;
+  justify-content: center;
+  height: auto;
 }
 </style>
 
@@ -43,6 +49,7 @@
 import Task1 from "@/components/Task1.vue";
 import Task2 from "@/components/Task2.vue";
 import Task3 from "@/components/Task3.vue";
+import Task4 from "@/components/Task4.vue";
 
 export default {
   data: () => ({
@@ -52,6 +59,7 @@ export default {
     Task1,
     Task2,
     Task3,
+    Task4,
   },
 };
 </script>
