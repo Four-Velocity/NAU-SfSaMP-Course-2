@@ -5,5 +5,5 @@
 > Варіант №13
 
 ## Установка програми
-Перейти за поссиланням [ssmp.2.four-velocity.com](https://ssmp.1.four-velocity.com) та клікнути "Установити"
+Перейти за поссиланням [ssmp.2.four-velocity.com](https://ssmp.3.four-velocity.com) та клікнути "Установити"
 > Посилання є валідним до 31 Dec 2022
